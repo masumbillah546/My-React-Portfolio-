@@ -1,36 +1,19 @@
-// import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Header, Footer} from './components';
+import './assets/styles/style.css'
+import {Header, Footer, Banner} from './components';
+import { footerHeight } from './constants/constants';
 
 function App() {
   return (
-    <div style={{minHeight: window.innerHeight}}>
-      <Header/>
+    <div className='App'>
+      <div style={{minHeight: window.innerHeight - footerHeight}}>
+        <Header/>
+        <Banner/>
+      </div>
       <Footer/>
     </div>
   );
 }
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 export default App;
