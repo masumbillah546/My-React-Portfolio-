@@ -1,3 +1,4 @@
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faEnvelope,
@@ -6,15 +7,21 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useSelector } from 'react-redux'
+import TsParticles from './TsParticles'
+import TsParticles2 from './TsParticles2'
+import TsParticles3 from './TsParticles3'
 const profileImage = require('../assets/images/profile-picture.png')
 
 function Banner() {
   const { isDark } = useSelector((store) => store.theme)
   return (
-    <div id='home' className='container profile'>
+    <div id='home' className='container profile position-relative'>
+      {/* <TsParticles /> */}
+
+      {isDark ? <TsParticles3 /> : <TsParticles2 />}
       <div
-        className='row py-4'
-        style={{ backgroundColor: isDark ? '#1e1e1e' : '#FFFFFF' }}
+        className='row py-4 zindex-1 position-relative'
+        // style={{ backgroundColor: isDark ? '#1e1e1e' : '#FFFFFF' }}
       >
         <div
           style={{ color: isDark ? '#FFFFFF' : '#000000' }}
@@ -38,7 +45,13 @@ function Banner() {
         </div>
         <div className='col-lg-4 order-1 order-lg-2 d-flex flex-column justify-content-center align-items-center  p-3'>
           <div className='profile-picture'>
-            <img className='' src={profileImage} height={200} width={200} alt='Person' />
+            <img
+              className=''
+              src={profileImage}
+              height={200}
+              width={200}
+              alt='Person'
+            />
           </div>
           <div style={{ color: isDark ? '#FFFFFF' : '#000000', fontSize: 40 }}>
             Masum Billah
