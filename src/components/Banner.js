@@ -1,39 +1,60 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
+import {
+  faEnvelope,
+  faLocationDot,
+  faPhone,
+} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useSelector } from 'react-redux'
 const profileImage = require('../assets/images/profile-picture.png')
 
 function Banner() {
-  const {isDark} = useSelector((store) => store.theme)
+  const { isDark } = useSelector((store) => store.theme)
   return (
-    <div id="home" className="container profile">
-      <div className="row py-4" style={{backgroundColor: isDark ? '#1e1e1e' : '#FFFFFF'}}>
-        <div style={{color: isDark ? '#FFFFFF' : '#000000'}} className="col-lg-4 order-2 order-lg-1 d-flex flex-column justify-content-center title p-3">
+    <div id='home' className='container profile'>
+      <div
+        className='row py-4'
+        style={{ backgroundColor: isDark ? '#1e1e1e' : '#FFFFFF' }}
+      >
+        <div
+          style={{ color: isDark ? '#FFFFFF' : '#000000' }}
+          className='col-lg-4 order-2 order-lg-1 d-flex flex-column justify-content-center title p-3'
+        >
           <h1>Welcome.</h1>
-          <p style={{fontSize: 20}}>
-            My name is Masum Billah,<br/> A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.<br/>Check out some of my work in the Projects section.
+          <p style={{ fontSize: 20 }}>
+            My name is Masum Billah,
+            <br /> A Frontend focused Web Developer building the Frontend of
+            Websites and Web Applications that leads to the success of the
+            overall product.
+            <br />
+            Check out some of my work in the Projects section.
           </p>
-          <p style={{fontSize: 20}}>
-            I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+          <p style={{ fontSize: 20 }}>
+            I'm open to Job opportunities where I can contribute, learn and
+            grow. If you have a good opportunity that matches my skills and
+            experience then don't hesitate to contact me.
           </p>
-            {/* <p> I want to <mark>make things</mark> that make a difference.</p> */}
+          {/* <p> I want to <mark>make things</mark> that make a difference.</p> */}
         </div>
-        <div className="col-lg-4 order-1 order-lg-2 d-flex flex-column justify-content-center align-items-center  p-3">
-          <div className="profile-picture">
-            <img className="" src={profileImage} height="200" alt="Person"/>
+        <div className='col-lg-4 order-1 order-lg-2 d-flex flex-column justify-content-center align-items-center  p-3'>
+          <div className='profile-picture'>
+            <img className='' src={profileImage} height={200} width={200} alt='Person' />
           </div>
-          <div style={{color: isDark ? '#FFFFFF' : '#000000', fontSize: 40}}>Masum Billah</div>
-          <div style={{color: 'orange', fontSize: 25, lineHeight: 1}}>Frontend Developer</div>
+          <div style={{ color: isDark ? '#FFFFFF' : '#000000', fontSize: 40 }}>
+            Masum Billah
+          </div>
+          <div style={{ color: 'orange', fontSize: 25, lineHeight: 1 }}>
+            Frontend Developer
+          </div>
         </div>
-        <div className="col-lg-4 order-3 d-flex flex-column justify-content-center p-3">
-          <div style={{color: isDark ? '#b4b6b5' : '#000000', fontSize: 20}}>
-            <div className="d-flex align-items-center">
-              <FontAwesomeIcon icon={faPhone}/>
+        <div className='col-lg-4 order-3 d-flex flex-column justify-content-center p-3'>
+          <div style={{ color: isDark ? '#b4b6b5' : '#000000', fontSize: 20 }}>
+            <div className='d-flex align-items-center'>
+              <FontAwesomeIcon icon={faPhone} />
               <div className='mx-2'>+88 01738004246</div>
             </div>
-            <div className="d-flex align-items-center">
-              <FontAwesomeIcon icon={faEnvelope}/>
+            <div className='d-flex align-items-center'>
+              <FontAwesomeIcon icon={faEnvelope} />
               <div className='mx-2'>masumbillah546@gmail.com</div>
             </div>
             {/* <div className="d-flex align-items-center">
@@ -44,8 +65,8 @@ function Banner() {
               <FontAwesomeIcon icon={faLinkedin}/>
               <div className='mx-2'><a href='https://www.linkedin.com/in/masum-billah-35756817b/' target='_blank'>https://www.linkedin.com/in/masum-billah-35756817b/</a></div>
             </div> */}
-            <div className="d-flex align-items-center">
-              <FontAwesomeIcon icon={faLocationDot}/>
+            <div className='d-flex align-items-center'>
+              <FontAwesomeIcon icon={faLocationDot} />
               <div className='mx-2'> Dhaka, Bangladesh</div>
             </div>
           </div>
@@ -63,7 +84,7 @@ function Banner() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Banner;
+export default Banner

@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const isDark = JSON.parse(localStorage.getItem("theme")) ?? true;
+const isDark = JSON.parse(localStorage.getItem('theme')) ?? true
 const initialState = {
   isDark,
 }

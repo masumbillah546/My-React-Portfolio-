@@ -1,26 +1,32 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 // import {} from '@fortawesome/free-brands-svg-icons'
-import { useDispatch, useSelector } from 'react-redux';
-import { toggleTheme } from '../store/reducers';
+import { useDispatch, useSelector } from 'react-redux'
+import { toggleTheme } from '../store/reducers'
 
 function ThemeSwitch() {
   const dispatch = useDispatch()
-  const {isDark} = useSelector((state) => state.theme)
+  const { isDark } = useSelector((state) => state.theme)
   const toggle = () => {
     localStorage.setItem('theme', !isDark)
     dispatch(toggleTheme())
   }
   return (
-    <div style={{right: 20, top: 12}} className='position-absolute'>
-      <input onChange={toggle} type="checkbox" checked={isDark} className="checkbox" id="checkbox"/>
-      <label htmlFor="checkbox" className="label">
-        <FontAwesomeIcon className='fa-moon' icon={faMoon}/>
-        <FontAwesomeIcon className='fa-sun' icon={faSun}/>
-        <div className='ball'/>
+    <div style={{ right: 20, top: 12 }} className='position-absolute'>
+      <input
+        onChange={toggle}
+        type='checkbox'
+        checked={isDark}
+        className='checkbox'
+        id='checkbox'
+      />
+      <label htmlFor='checkbox' className='label'>
+        <FontAwesomeIcon className='fa-moon' icon={faMoon} />
+        <FontAwesomeIcon className='fa-sun' icon={faSun} />
+        <div className='ball' />
       </label>
     </div>
-  );
+  )
 }
 
-export default ThemeSwitch;
+export default ThemeSwitch

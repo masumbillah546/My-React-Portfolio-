@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+  --font-family: 'Roboto', sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -20,7 +20,7 @@
 /* banner */
 .title {
   font-size: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .profile-picture {
   border: 5px dashed orange;
@@ -105,9 +105,9 @@
 .label {
   width: 40px;
   height: 16px;
-  background-color:#111;
+  background-color: #111;
   display: flex;
-  border-radius:50px;
+  border-radius: 50px;
   align-items: center;
   justify-content: space-between;
   padding: 5px;
@@ -127,7 +127,7 @@
 }
 
 /*  target the elemenent after the label*/
-.checkbox:checked + .label .ball{
+.checkbox:checked + .label .ball {
   transform: translateX(22px);
 }
 
@@ -160,18 +160,18 @@ scroll To Top
 
 @-webkit-keyframes mover {
   0% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
   100% {
-      transform: translateY(-20px);
+    transform: translateY(-20px);
   }
 }
 
 @keyframes mover {
   0% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
   100% {
-      transform: translateY(-20px);
+    transform: translateY(-20px);
   }
 }

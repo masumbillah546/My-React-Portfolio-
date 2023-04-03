@@ -1,12 +1,12 @@
-import Header from "./Header";
-import Footer from "./Footer";
-import Banner from "./Banner";
-import Skills from "./Skills";
-import Education from "./Education";
-import TopSkills from "./TopSkills";
-import Projects from "./Projects";
-import ThemeSwitch from "./ThemeSwitch";
-import ScrollRocket from "./ScrollRocket";
+import Header from './Header'
+import Footer from './Footer'
+import Banner from './Banner'
+import Skills from './Skills'
+import Education from './Education'
+import TopSkills from './TopSkills'
+import Projects from './Projects'
+import ThemeSwitch from './ThemeSwitch'
+import ScrollRocket from './ScrollRocket'
 
 export {
   Header,
@@ -17,5 +17,5 @@ export {
   TopSkills,
   Projects,
   ThemeSwitch,
-  ScrollRocket
+  ScrollRocket,
 }
