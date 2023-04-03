@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Education from "./Education";
 import TopSkills from "./TopSkills";
 import Projects from "./Projects";
+import ThemeSwitch from "./ThemeSwitch";
 
 export {
   Header,
@@ -14,4 +15,5 @@ export {
   Education,
   TopSkills,
   Projects,
+  ThemeSwitch
 }

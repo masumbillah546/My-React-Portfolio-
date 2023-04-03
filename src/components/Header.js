@@ -1,13 +1,16 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import {Container, Nav, Navbar} from 'react-bootstrap';
+import ThemeSwitch from './ThemeSwitch';
+import { useSelector } from 'react-redux';
 
 function Header() {
+  const {isDark} = useSelector((state) => state.theme)
+  console.log('nav..', isDark)
   return (
-    <>
-      <Navbar bg="dark" variant="dark" sticky='top'>
-        <Container>
-          {/* <Navbar.Brand href="#home">I am Masum</Navbar.Brand> */}
+    <Navbar collapseOnSelect expand="lg" bg={isDark ? "dark" : 'light'} variant={isDark ? "dark" : 'light'} sticky='top'>
+      <Container className='position-relative'>
+        {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav bg-danger">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
@@ -15,9 +18,10 @@ function Header() {
             <Nav.Link href="#education">Education</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
-        </Container>
-      </Navbar>
-    </>
+        </Navbar.Collapse>
+        <ThemeSwitch/>
+      </Container>
+    </Navbar>
   );
 }
 

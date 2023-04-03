@@ -1,13 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { useSelector } from 'react-redux'
 const profileImage = require('../assets/images/profile-picture.png')
 
 function Banner() {
+  const {isDark} = useSelector((store) => store.theme)
   return (
     <div id="home" className="container profile">
-      <div className="row py-4" style={{backgroundColor: '#1e1e1e'}}>
-        <div className="col-lg-4 order-2 order-lg-1 d-flex flex-column justify-content-center title p-3">
+      <div className="row py-4" style={{backgroundColor: isDark ? '#1e1e1e' : '#FFFFFF'}}>
+        <div style={{color: isDark ? '#FFFFFF' : '#000000'}} className="col-lg-4 order-2 order-lg-1 d-flex flex-column justify-content-center title p-3">
           <h1>Welcome.</h1>
           <p style={{fontSize: 20}}>
             My name is Masum Billah,<br/> A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.<br/>Check out some of my work in the Projects section.
@@ -21,11 +23,11 @@ function Banner() {
           <div className="profile-picture">
             <img className="" src={profileImage} height="200" alt="Person"/>
           </div>
-          <div style={{color: 'white', fontSize: 40}}>Masum Billah</div>
+          <div style={{color: isDark ? '#FFFFFF' : '#000000', fontSize: 40}}>Masum Billah</div>
           <div style={{color: 'orange', fontSize: 25, lineHeight: 1}}>Frontend Developer</div>
         </div>
         <div className="col-lg-4 order-3 d-flex flex-column justify-content-center p-3">
-          <div style={{color: '#b4b6b5', fontSize: 20}}>
+          <div style={{color: isDark ? '#b4b6b5' : '#000000', fontSize: 20}}>
             <div className="d-flex align-items-center">
               <FontAwesomeIcon icon={faPhone}/>
               <div className='mx-2'>+88 01738004246</div>
