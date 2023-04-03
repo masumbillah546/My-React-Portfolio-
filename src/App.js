@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/styles/style.css'
-import {Header, Footer, Banner} from './components';
+import {Header, Footer, Banner, Skills, Education} from './components';
 import { footerHeight } from './constants/constants';
 
 function App() {
@@ -10,6 +10,8 @@ function App() {
       <div style={{minHeight: window.innerHeight - footerHeight}}>
         <Header/>
         <Banner/>
+        <Skills/>
+        <Education/>
       </div>
       <Footer/>
     </div>

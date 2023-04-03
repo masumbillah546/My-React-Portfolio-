@@ -8,14 +8,14 @@ function Footer() {
     <footer style={{backgroundColor: '#212529', height: footerHeight}} className="footer w-100 text-white">
       <div className="container">
         <div className="row py-3 pb-0">
-          <div className="col-5 d-flex flex-column align-items-center">
+          <div className="col-5 d-flex flex-column align-items-center justify-content-center">
             <h6 className="text-uppercase">
               <span><FontAwesomeIcon icon={faLocationDot} /></span>
               <span className='mx-2'>Location</span>
             </h6>
             <p className="">Dhaka, Bangladesh</p>
           </div>
-          <div className="col-7 d-flex flex-column align-items-center">
+          <div className="col-7 d-flex flex-column align-items-center justify-content-center">
             <h6 className="text-uppercase">Get in touch</h6>
             <div className='m-2 mt-0 mx-0'>
               <a className="btn btn-danger m-1" href="https://www.facebook.com/masum.billah.7355079">
@@ -33,7 +33,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </footer>
   );
 }

@@ -3,6 +3,9 @@
   color: #FFFFFF;
 }
 .profile-picture {
-  border: 5px solid orange;
+  border: 5px dashed orange;
   border-radius: 6px;
+}
+.hr {
+  border: 2px solid orange;
 }
