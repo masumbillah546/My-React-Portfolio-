@@ -13,11 +13,11 @@ function ThemeSwitch() {
   }
   return (
     <div style={{right: 20, top: 12}} className='position-absolute'>
-      <input onChange={toggle} type="checkbox" checked={isDark} class="checkbox" id="checkbox"/>
-      <label for="checkbox" class="label">
+      <input onChange={toggle} type="checkbox" checked={isDark} className="checkbox" id="checkbox"/>
+      <label htmlFor="checkbox" className="label">
         <FontAwesomeIcon className='fa-moon' icon={faMoon}/>
         <FontAwesomeIcon className='fa-sun' icon={faSun}/>
-        <div class='ball'/>
+        <div className='ball'/>
       </label>
     </div>
   );

@@ -7,46 +7,46 @@ function TopSkills() {
       <hr className='hr'/>
       <h2 style={{color: 'orange'}}>TOP SKILLS</h2>
       <Row id='Topskills'>
-        <div class="skills-wrapper">
-          <div class="first-set animate__animated animate__pulse">
+        <div className="skills-wrapper">
+          <div className="first-set animate__animated animate__pulse">
             <img
               src={html5}
               alt=""
               loading="lazy"
-              class="icon icon-card"
+              className="icon icon-card"
             />
             <img
               src={css3}
               alt=""
               loading="lazy"
-              class="icon icon-card"
+              className="icon icon-card"
             />
             <img
               src={javaScript}
               alt=""
               loading="lazy"
-              class="icon icon-card"
+              className="icon icon-card"
             />
           </div>
 
-          <div class="second-set animate__animated animate__pulse">
+          <div className="second-set animate__animated animate__pulse">
             <img
               src={bootstrap}
               alt=""
               loading="lazy"
-              class="icon icon-card"
+              className="icon icon-card"
             />
             <img
               src={react}
               alt=""
               loading="lazy"
-              class="icon icon-card"
+              className="icon icon-card"
             />
             <img
               src={git}
               alt=""
               loading="lazy"
-              class="icon icon-card"
+              className="icon icon-card"
             />
           </div>
         </div>

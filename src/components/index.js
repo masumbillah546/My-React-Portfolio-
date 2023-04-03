@@ -6,6 +6,7 @@ import Education from "./Education";
 import TopSkills from "./TopSkills";
 import Projects from "./Projects";
 import ThemeSwitch from "./ThemeSwitch";
+import ScrollRocket from "./ScrollRocket";
 
 export {
   Header,
@@ -15,5 +16,6 @@ export {
   Education,
   TopSkills,
   Projects,
-  ThemeSwitch
+  ThemeSwitch,
+  ScrollRocket
 }

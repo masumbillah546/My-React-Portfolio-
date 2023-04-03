@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux';
 
 function Header() {
   const {isDark} = useSelector((state) => state.theme)
-  console.log('nav..', isDark)
   return (
     <Navbar collapseOnSelect expand="lg" bg={isDark ? "dark" : 'light'} variant={isDark ? "dark" : 'light'} sticky='top'>
       <Container className='position-relative'>

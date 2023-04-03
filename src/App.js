@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/styles/style.css'
-import {Header, Footer, Banner, Skills, Education, TopSkills, Projects} from './components';
+import {Header, Footer, Banner, Skills, Education, TopSkills, Projects, ScrollRocket} from './components';
 import { footerHeight } from './constants/constants';
 import { useSelector } from 'react-redux';
 
@@ -17,6 +17,7 @@ function App() {
         <Projects/>
         <Education/>
       </div>
+      <ScrollRocket/>
       <Footer/>
     </div>
   );
