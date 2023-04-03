@@ -1,16 +1,15 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/styles/style.css'
+import { ScrollRocket } from './components'
 import {
   Header,
   Footer,
-  Banner,
   Skills,
   Education,
   TopSkills,
   Projects,
-  ScrollRocket,
-} from './components'
+} from './sections'
 import { footerHeight } from './constants/constants'
 import { useSelector } from 'react-redux'
 
@@ -23,14 +22,13 @@ function App() {
         style={{ minHeight: window.innerHeight - footerHeight }}
       >
         <Header />
-        <Banner />
         <TopSkills />
         <Skills />
         <Projects />
         <Education />
       </div>
-      <ScrollRocket />
       <Footer />
+      <ScrollRocket />
     </div>
   )
 }

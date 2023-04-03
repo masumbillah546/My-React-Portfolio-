@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap'
 import ThemeSwitch from './ThemeSwitch'
 import { useSelector } from 'react-redux'
 
-function Header() {
+function NavigationBar() {
   const { isDark } = useSelector((state) => state.theme)
   return (
     <Navbar
@@ -30,4 +30,4 @@ function Header() {
   )
 }
 
-export default Header
+export default NavigationBar
