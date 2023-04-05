@@ -9,6 +9,7 @@ import {
   Education,
   TopSkills,
   Projects,
+  Experiences,
 } from './sections'
 import { footerHeight } from './constants/constants'
 import { useSelector } from 'react-redux'
@@ -25,6 +26,7 @@ function App() {
         <TopSkills />
         <Skills />
         <Projects />
+        <Experiences />
         <Education />
       </div>
       <Footer />

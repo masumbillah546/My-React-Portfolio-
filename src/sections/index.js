@@ -4,6 +4,7 @@ import Skills from './Skills'
 import Education from './Education'
 import TopSkills from './TopSkills'
 import Projects from './Projects'
+import Experiences from './Experiences'
 
 export {
   Header,
@@ -12,4 +13,5 @@ export {
   Education,
   TopSkills,
   Projects,
+  Experiences
 }
