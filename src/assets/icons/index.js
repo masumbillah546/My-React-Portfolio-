@@ -4,4 +4,7 @@ import javaScript from './icons8-javascript.svg'
 import bootstrap from './icons8-bootstrap.svg'
 import react from './icons8-react-native.svg'
 import git from './icons8-git.svg'
-export { html5, css3, javaScript, bootstrap, react, git }
+import PhotoShop from './Photoshop'
+import Mysql from './Mysql'
+import JQuery from './JQuery'
+export { html5, css3, javaScript, bootstrap, react, git, PhotoShop, Mysql, JQuery }

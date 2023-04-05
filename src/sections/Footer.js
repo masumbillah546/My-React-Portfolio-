@@ -21,9 +21,9 @@ function Footer() {
     >
       <div
         style={{ color: isDark ? '#FFFFFF' : '#000000' }}
-        className='container'
+        className='container h-100'
       >
-        <div className='row py-3 pb-0'>
+        <div className='row py-3 h-100 pb-0'>
           <div className='col-5 d-flex flex-column align-items-center justify-content-center'>
             <h6 className='text-uppercase'>
               <span>
