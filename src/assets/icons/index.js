@@ -7,4 +7,5 @@ import git from './icons8-git.svg'
 import PhotoShop from './Photoshop'
 import Mysql from './Mysql'
 import JQuery from './JQuery'
-export { html5, css3, javaScript, bootstrap, react, git, PhotoShop, Mysql, JQuery }
+const redux = require('./redux.png')
+export { html5, css3, javaScript, bootstrap, react, git, PhotoShop, Mysql, JQuery, redux }

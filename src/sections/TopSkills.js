@@ -1,5 +1,5 @@
 import { Container, Row } from 'react-bootstrap'
-import { css3, html5, javaScript, bootstrap, react, git } from '../assets/icons'
+import { css3, html5, javaScript, bootstrap, react, git, redux } from '../assets/icons'
 
 function TopSkills() {
   return (
@@ -23,6 +23,7 @@ function TopSkills() {
             className='icon icon-card'
           />
           <img src={react} alt='' loading='lazy' className='icon icon-card' />
+          <img src={redux} alt='' loading='lazy' className='icon icon-card' />
           <img src={git} alt='' loading='lazy' className='icon icon-card' />
         </div>
       </Row>
