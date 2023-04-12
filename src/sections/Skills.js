@@ -23,9 +23,9 @@ function Skills() {
   return (
     <Container>
       <hr className='hr' />
-      <h2 style={{ color: 'orange' }}>SKILLS</h2>
+      <h2 style={{ color: 'orange' }}>OTHERS SKILLS</h2>
       <Row id='skills'>
-        <div className='col-lg-4 d-flex flex-column justify-content-center p-3'>
+        {/* <div className='col-lg-4 d-flex flex-column justify-content-center p-3'>
           <div
             style={{
               color: isDark ? '#b4b6b5' : '#000000',
@@ -53,7 +53,7 @@ function Skills() {
               <div className='mx-2'>React Native</div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className='col-lg-4 d-flex flex-column justify-content-center p-3'>
           <div
             style={{
@@ -91,17 +91,17 @@ function Skills() {
             </div>
           </div>
         </div>
-        <div className='col-lg-4 d-flex flex-column justify-content-center p-3'>
+        <div className='col-lg-4 d-flex flex-column p-3'>
           <div
             style={{
               color: isDark ? '#b4b6b5' : '#000000',
               fontSize: skillsItemIconSize,
             }}
           >
-            <div className='d-flex align-items-center'>
+            {/* <div className='d-flex align-items-center'>
               <FontAwesomeIcon icon={faGithub} />
               <div className='mx-2'>Git</div>
-            </div>
+            </div> */}
             <div className='d-flex align-items-center'>
               <FontAwesomeIcon icon={faFigma} />
               <div className='mx-2'>Figma</div>
@@ -115,10 +115,10 @@ function Skills() {
               />
               <div className='mx-2'>Photoshop</div>
             </div>
-            <div className='d-flex align-items-center'>
+            {/* <div className='d-flex align-items-center'>
               <FontAwesomeIcon icon={faSquareJs} />
               <div className='mx-2'>Javascript</div>
-            </div>
+            </div> */}
             <div className='d-flex align-items-center'>
               <FontAwesomeIcon icon={faNodeJs} />
               <div className='mx-2'>NodeJs</div>

@@ -23,10 +23,10 @@ function App() {
         style={{ minHeight: window.innerHeight - footerHeight }}
       >
         <Header />
+        <Experiences />
         <TopSkills />
         <Skills />
-        <Projects />
-        <Experiences />
+        {/* <Projects /> */}
         <Education />
       </div>
       <Footer />
