@@ -30,17 +30,24 @@ function Banner() {
           <h1>Welcome.</h1>
           <p style={{ fontSize: 20 }}>
             My name is Masum Billah,
-            <br /> A Frontend focused Web Developer building the Frontend of
-            Websites and Web Applications that leads to the success of the
-            overall product.
-            <br />
-            Check out some of my work in the Projects section.
+            <br /> A highly ambitious Frontend Focused Web and Mobile app
+            Developer with{' '}
+            <span className='text-warning fw-bold'>2+ years</span> of experience
+            working with{' '}
+            <span className='text-warning fw-bold'>
+              HTML, CSS, JavaScript, Bootstrap, React,
+            </span>{' '}
+            and <span className='text-warning fw-bold'>React Native</span>.
+            Highly adept at both independent and collaborative projects, with an
+            emphasis on Landing page, Website, Android, and IOS app development.
+            {/* <br />
+            Check out some of my work in the Projects section. */}
           </p>
-          <p style={{ fontSize: 20 }}>
+          {/* <p style={{ fontSize: 20 }}>
             I'm open to Job opportunities where I can contribute, learn and
             grow. If you have a good opportunity that matches my skills and
             experience then don't hesitate to contact me.
-          </p>
+          </p> */}
           {/* <p> I want to <mark>make things</mark> that make a difference.</p> */}
         </div>
         <div className='col-lg-4 order-1 order-lg-2 d-flex flex-column justify-content-center align-items-center  p-3'>

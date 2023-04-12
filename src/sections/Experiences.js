@@ -32,7 +32,7 @@ function Experiences() {
           <div style={{ color: isDark ? '#b4b6b5' : '#000000', fontSize: 20 }}>
             <div className='d-flex align-items-center'>
               <FontAwesomeIcon icon={faCalendarDays} />
-              <div className='mx-2'>Feb, 2021 - Current</div>
+              <div className='mx-2'>Feb, 2021 - Present</div>
             </div>
             <div className='d-flex align-items-center'>
               {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
@@ -58,8 +58,8 @@ function Experiences() {
               </td>
               <td>
                 {' '}
-                Develop new mobile application on Android and IOS using React
-                Native.
+                Coordinating with development teams and designers to develop
+                web/mobile applications.
               </td>
             </tr>
             <tr>
@@ -68,8 +68,8 @@ function Experiences() {
               </td>
               <td>
                 {' '}
-                Designing and developing responsive, mobile-optimized interfaces
-                and websites aligned with user experience requirements.
+                Using React Native, designing and developing user interface
+                components for JavaScript-based online and mobile apps.
               </td>
             </tr>
             <tr>
@@ -78,23 +78,19 @@ function Experiences() {
               </td>
               <td>
                 {' '}
-                Developing front-end features, components, and libraries,
-                translating designs, reusable code optimized for maximum
-                performance across various web-capable devices and browsers.
+                Developing responsive, mobile-optimized interfaces and websites
+                aligned with user experience requirements.
               </td>
             </tr>
-            {/* <tr>
+            <tr>
               <td>
                 <FontAwesomeIcon icon={faCircle} />
               </td>
               <td>
                 {' '}
-                Responsible for design and development of various components
-                such as tab bars, map view, image picker, date picker, push
-                notifications, sign-in/out features, profile management and
-                navigation using react-native.
+                Troubleshooting issues and improving front-end performance.
               </td>
-            </tr> */}
+            </tr>
 
             <tr>
               <td>
@@ -102,8 +98,29 @@ function Experiences() {
               </td>
               <td>
                 {' '}
-                Implementing dynamic Webpages where the content was fetched via
-                API calls using end point and updating the DOM.
+                Writing reusable, effective, as well as scalable JavaScript code
+                and creating interchangeable front-end modules.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <FontAwesomeIcon icon={faCircle} />
+              </td>
+              <td>
+                {' '}
+                Understanding clients’ needs to build apps in stipulated
+                time/budget.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <FontAwesomeIcon icon={faCircle} />
+              </td>
+              <td>
+                {' '}
+                Using additional JavaScript libraries such as Redux to make
+                asynchronous API calls as well as improve the performance of the
+                websites/mobile apps.
               </td>
             </tr>
           </div>

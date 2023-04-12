@@ -62,6 +62,10 @@ function Skills() {
             }}
           >
             <div className='d-flex align-items-center'>
+              <FontAwesomeIcon icon={faNodeJs} />
+              <div className='mx-2'>NodeJs</div>
+            </div>
+            <div className='d-flex align-items-center'>
               <JQuery
                 height={skillsItemIconSize}
                 width={skillsItemIconSize}
@@ -81,14 +85,6 @@ function Skills() {
               />
               <div className='mx-2'>MySQL</div>
             </div>
-            <div className='d-flex align-items-center'>
-              <FontAwesomeIcon icon={faLaravel} />
-              <div className='mx-2'>Laravel</div>
-            </div>
-            <div className='d-flex align-items-center'>
-              <FontAwesomeIcon icon={faWordpress} />
-              <div className='mx-2'>Wordpress</div>
-            </div>
           </div>
         </div>
         <div className='col-lg-4 d-flex flex-column p-3'>
@@ -102,6 +98,14 @@ function Skills() {
               <FontAwesomeIcon icon={faGithub} />
               <div className='mx-2'>Git</div>
             </div> */}
+            <div className='d-flex align-items-center'>
+              <FontAwesomeIcon icon={faLaravel} />
+              <div className='mx-2'>Laravel</div>
+            </div>
+            <div className='d-flex align-items-center'>
+              <FontAwesomeIcon icon={faWordpress} />
+              <div className='mx-2'>Wordpress</div>
+            </div>
             <div className='d-flex align-items-center'>
               <FontAwesomeIcon icon={faFigma} />
               <div className='mx-2'>Figma</div>
@@ -119,10 +123,6 @@ function Skills() {
               <FontAwesomeIcon icon={faSquareJs} />
               <div className='mx-2'>Javascript</div>
             </div> */}
-            <div className='d-flex align-items-center'>
-              <FontAwesomeIcon icon={faNodeJs} />
-              <div className='mx-2'>NodeJs</div>
-            </div>
           </div>
         </div>
       </Row>
