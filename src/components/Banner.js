@@ -30,15 +30,17 @@ function Banner() {
           <h1>Welcome.</h1>
           <p style={{ fontSize: 20 }}>
             My name is Masum Billah,
-            <br /> A highly ambitious Frontend Focused Web and Mobile app
-            Developer with{' '}
+            <br /> A highly ambitious Full Stack Web Developer with{' '}
             <span className='text-warning fw-bold'>2+ years</span> of experience
             working with{' '}
             <span className='text-warning fw-bold'>
               HTML, CSS, JavaScript, Bootstrap, React,
             </span>{' '}
-            and <span className='text-warning fw-bold'>React Native</span>.
-            Highly adept at both independent and collaborative projects, with an
+            and <span className='text-warning fw-bold'>React Native</span>. And
+            <span className='text-warning fw-bold'> 1 year</span> of experience
+            working with{' '}
+            <span className='text-warning fw-bold'>PHP & Laravel</span>. Highly
+            adept at both independent and collaborative projects, with an
             emphasis on Landing page, Website, Android, and IOS app development.
             {/* <br />
             Check out some of my work in the Projects section. */}
@@ -64,7 +66,7 @@ function Banner() {
             Masum Billah
           </div>
           <div style={{ color: 'orange', fontSize: 25, lineHeight: 1 }}>
-            Frontend Developer
+            Full Stack Web Developer
           </div>
         </div>
         <div className='col-lg-4 order-3 d-flex flex-column justify-content-center p-3'>

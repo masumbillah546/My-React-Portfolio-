@@ -32,12 +32,12 @@ function Experiences() {
           <div style={{ color: isDark ? '#b4b6b5' : '#000000', fontSize: 20 }}>
             <div className='d-flex align-items-center'>
               <FontAwesomeIcon icon={faCalendarDays} />
-              <div className='mx-2'>Feb, 2021 - Present</div>
+              <div className='mx-2'>February, 2021 - April, 2023</div>
             </div>
             <div className='d-flex align-items-center'>
               {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
               <FontAwesomeIcon icon={faBriefcase} />
-              <div className='mx-2'>Junior Programmer (Frontend)</div>
+              <div className='mx-2'>Junior Programmer</div>
             </div>
             <div className='d-flex align-items-center'>
               <FontAwesomeIcon icon={faBuilding} />
